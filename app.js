@@ -20,5 +20,9 @@ function onReady() {
    toDoList.appendChild(newLi);
    //empty the input
    newToDoText.value = '';
+   //delete button
+   const deleteButton = document.createElement('button');
+      deleteButton.textContent = 'Delete';
+
  });
 }
